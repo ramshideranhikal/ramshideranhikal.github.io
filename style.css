@@ -197,10 +197,10 @@ img.soon{
     margin-bottom: 128px;
 }
 .photogrid{
-    width: 33%;
+    width: 49%;
 }
 .photogrid img{
-    width: 49%;
+    width: 100%;
     opacity:.8;
     border-radius:16px;
 }
@@ -301,7 +301,7 @@ img.soon{
         margin-bottom: 80px;
     }
     .photogrid{
-        width: 50%;
+        width: 100%;
         height: auto;
     }
     .photogrid.hide{
