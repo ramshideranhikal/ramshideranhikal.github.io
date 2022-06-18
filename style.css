@@ -303,6 +303,7 @@ img.soon{
     .photogrid{
         width: 100%;
         height: auto;
+        margin-bottom:24px;
     }
     .photogrid.hide{
         display: none;
