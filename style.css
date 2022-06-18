@@ -321,5 +321,8 @@ img.soon{
         padding:4px 0;
         margin:12px 0;
     }
+    .photogrid a img {
+    margin-left: 6px;
+    }
     
 }
