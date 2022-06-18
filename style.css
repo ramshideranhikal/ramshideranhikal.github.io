@@ -193,15 +193,16 @@ img.soon{
 .container.photography{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
     margin-bottom: 128px;
 }
 .photogrid{
     width: 33%;
-    height: 297px;
 }
 .photogrid img{
-    width: 100%;
-    opacity:.6;
+    width: 49%;
+    opacity:.8;
+    border-radius:16px;
 }
 
 .photogrid{
@@ -212,10 +213,7 @@ img.soon{
     padding: 32px;
 }
 .photogrid a{
-    padding-left: 32px;
-}
-.photogrid a img{
-    width: 17px;
+    
 }
 
 
