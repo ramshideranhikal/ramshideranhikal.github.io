@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a:hover{
+    cursor: pointer;
+}
+
+.row{
+    width: 100%;
+}
+
+p{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    line-height: 1.35;
+}
+p.small{
+    font-size: 12px;
+}
+
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+.container.top{
+    text-align: center;
+    margin-bottom: 88px;
+}
+.container .logo{
+    margin-top: 72px;
+    margin-bottom: 48px;
+}
+
+.featureShots img{
+    width: 31%;
+}
+
+.container.top h1{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 28px;
+    text-align: center;
+    width: 65%;
+    margin: 0 auto;
+    margin-top: 56px;
+    line-height: 1.35;
+}
+
+
+.workSection{
+    width: 48%;
+    margin: 0 auto;
+    margin-bottom: 96px;
+}
+
+
+
+
+
+.work{
+    display: flex;
+    margin-bottom: 56px;
+    text-decoration: none;
+    transition: all .3s ease-in-out;
+    align-items: center;
+}
+.work:hover{
+    margin-left: 8px;
+    transition: all .3s ease-in-out;
+    opacity: .4;
+}
+.work:hover h2{
+    color: #000;
+}
+.imgContainer{
+    width: 49px;
+    text-align: right;
+    margin-right: 48px;
+    display: flex;
+    justify-content: end;
+}
+.content{
+    text-align: left;
+}
+.work .content span{
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #333;
+    letter-spacing: -.6px;;
+}
+.work h2{
+    font-family: 'Krona One', sans-serif;
+    font-size: 26px;
+    letter-spacing: -1.2px;
+    color:rgba(0,0,0,1);
+}
+.work .content span b{
+    font-weight: 100;
+    display: inline-block;
+    margin:0 12px;
+    opacity: .3;
+}
+
+.contact{
+    width: 48%;
+    margin: 0 auto;
+    padding: 24px;
+    border: 1px solid #DDE0E8;
+    border-radius: 16px;
+    text-align: center;
+    position: relative;
+    color: #4D4D4D;
+    margin-bottom: 72px;
+}
+.contact p, .contact a {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    text-decoration: none;
+}
+.contact p{
+    margin-bottom: 12px;  
+    line-height: 1.5;
+}
+.contact a{
+    font-weight: 500;
+    color: black;
+}
+.contact img{
+    position: absolute;
+    bottom: -16px;
+    left: 44%;
+}
+
+
+
+.bottom{
+    width: 48%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.bottom span b{
+    font-weight: 100;
+    display: inline-block;
+    margin:0 12px;
+    opacity: .3;
+}
+
+.bottom a{
+    text-decoration: none;
+    font-family: 'Krona One', sans-serif;
+    font-size: 13px;
+    color: #000;
+    letter-spacing: -.6px;
+    transition: all .2s ease-in-out;
+}
+.bottom a:hover{
+    opacity: .4;
+    transition: all .2s ease-in-out;
+}
+
+img.cover{
+    width: 100%;
+    margin-top: 80px;
+}
+img.shot, video.shot{
+    width: 75%;
+}
+video.shot, .interaction img.shot, .ui img.shot{
+    border-radius: 20px;}
+
+img.shot:last-child{
+    margin-bottom: 120px;
+}
+.project p{
+    width: 65%;
+    margin:80px auto;
+}
+.project p b.small{
+    font-size: 12px;
+    display: block;
+    margin-top: 12px;
+}
+.project p b.small a{
+    text-decoration: underline;
+    color: #000;
+}
+
+
+@media only screen and (max-width: 790px){
+    .container.top h1{
+        width: 70%;
+    }
+    .workSection, .contact, .bottom{
+        width: 50%;
+    }
+    }
+@media only screen and (max-width: 790px){
+    .workSection, .contact, .bottom{
+        width: 60%;
+    }
+}
+@media only screen and (max-width: 635px){
+    .workSection, .contact, .bottom{
+        width: 75%;
+    }
+}
+@media only screen and (max-width: 505px){
+    .workSection, .contact, .bottom{
+        width: 85%;
+    }
+}
+@media only screen and (max-width: 505px){
+    .container.top h1{
+        font-size: 24px;
+    }
+    .workSection, .contact, .bottom{
+        width: 65%;
+    }
+    .work .content span{
+        font-size: 12px;
+    }
+    .work h2{
+        font-size: 20px;
+    }
+    .imgContainer{
+        margin-right: 32px;
+    }
+    .bottom span{
+        line-height: 2;
+    }
+}
+@media only screen and (max-width: 505px){
+    .workSection, .contact, .bottom, .container.top h1{
+        width: 80%;
+    }
+
+}
+
+/* NOT A CODER. EXPECT ERRORS <3 */
