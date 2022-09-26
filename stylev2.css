@@ -185,6 +185,7 @@ img.shot:last-child{
     font-size: 12px;
     display: block;
     margin-top: 12px;
+    font-weight: 300;
 }
 .project p b.small a{
     text-decoration: underline;
