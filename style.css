@@ -36,11 +36,11 @@ p {
 }
 
 .main-bg {
-  width: 74%;
+  width: 100%;
   position: absolute;
   z-index: -555;
-  left: 13%;
-  opacity: .5;
+  left: 0;
+  opacity: .2;
 }
 
 .logo {
