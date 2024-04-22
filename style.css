@@ -428,3 +428,16 @@ img.intro {
     margin: 40px auto;
   }
 }
+
+.hero-copy a:{
+  text-decoration: none;
+  color: #fff;
+  opacity: .5;
+  cursor: pointer;
+  padding-right: 12px;
+  font-size: 18px;
+}
+
+.hero-copy a:hover {
+  opacity: 1;
+}
