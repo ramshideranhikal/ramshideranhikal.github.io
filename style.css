@@ -335,6 +335,13 @@ img.half {
     width: 48%;
 }
 
+.vid {
+  width: 97%;
+  background: #000;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  border-radius: 16px;
+}
 
 
 /* =============================== */
