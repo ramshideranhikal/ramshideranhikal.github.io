@@ -89,9 +89,23 @@ h2 span {
     font-size: 18px;
     line-height: 1.6;
     letter-spacing: -.2px;
-    opacity: .65;
     padding: 0 160px;
     margin-bottom: 24px;
+    color: rgba(0, 0, 0, .65);
+}
+.about p a {
+    display: block;
+    padding-top: 16px;
+    padding-bottom: 12px;
+    font-weight: 500;
+    font-family: "Bricolage Grotesque", sans-serif;
+    color: black;
+    opacity: 1;
+    text-decoration: none;
+    transition: all ease-in-out .2s;
+}
+.about p a:hover{
+    opacity: .6;
 }
 
 .about img {
@@ -335,13 +349,6 @@ img.half {
     width: 48%;
 }
 
-.vid {
-  width: 97%;
-  background: #000;
-  margin: 0 auto;
-  margin-bottom: 10px;
-  border-radius: 16px;
-}
 
 
 /* =============================== */
