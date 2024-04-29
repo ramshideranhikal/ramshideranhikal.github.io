@@ -94,18 +94,42 @@ h2 span {
     color: rgba(0, 0, 0, .65);
 }
 .about p a {
+    background: linear-gradient(
+        to right,
+        #01040b 20%,
+        #CDCEDC 50%,
+        #CDCEDC 70%,
+        #01040b 80%
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    background-size: 500% auto;
+    animation: textShine 5s ease-in-out infinite alternate;
     display: block;
     padding-top: 16px;
     padding-bottom: 12px;
-    font-weight: 500;
+    font-weight: 600;
     font-family: "Bricolage Grotesque", sans-serif;
-    color: black;
+    transition: all ease-in-out .3s;
     opacity: 1;
+    position: relative;
     text-decoration: none;
-    transition: all ease-in-out .2s;
+    top: 0;
+}
+
+@keyframes textShine {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
 }
 .about p a:hover{
-    opacity: .6;
+    opacity: .8;
+    top: -2px;
 }
 
 .about img {
