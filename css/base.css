@@ -112,6 +112,7 @@ body {
 	align-content: center;
 	grid-template-areas: 'content-img' 'content-title' 'content-text';
 	justify-items: center;
+	text-align:center;
 }
 
 .content--grid:has(.content__inner) {
@@ -239,6 +240,7 @@ body {
 		grid-template-areas: 'content-img content-title' 'content-img content-text';
 		grid-template-columns: 45% 1fr;
 		justify-items: start;
+		text-align:left;
 	}
 	.content__img--large {
 		width: 160%;
