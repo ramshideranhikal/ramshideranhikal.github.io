@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/portfolio-animated-text/', // Replace with your repository name
+  base: 'ramshideranhikal.github.io/', // Replace with your repository name
   build: {
     outDir: 'dist',
     sourcemap: true
